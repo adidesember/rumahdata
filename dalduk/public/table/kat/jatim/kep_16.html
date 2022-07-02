@@ -1,0 +1,1456 @@
+﻿<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BKKBN</title>
+    <!-- Removed by WebCopy --><!--<base href="https://localhost/kbjatim/dalduk/public/">--><!-- Removed by WebCopy -->
+    <link href="../../../../../file.kbjatim.id/script/quasar/quasar.prod.css" rel="stylesheet">
+    <style>
+        @font-face {
+            font-family: 'Material Icons';
+            font-style: normal;
+            font-weight: 400;
+            src: url('../../../../../file.kbjatim.id/media/font/mi.woff2') format('woff2'),
+                url('../../../../../file.kbjatim.id/media/font/mi.woff') format('woff');
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            src: url('../../../../../file.kbjatim.id/media/font/roboto.woff2') format('woff2'),
+                url('../../../../../file.kbjatim.id/media/font/roboto.woff') format('woff');
+        }
+
+        .material-icons {
+            font-family: 'Material Icons';
+            font-weight: normal;
+            font-style: normal;
+            font-size: 24px;
+            line-height: 1;
+            letter-spacing: normal;
+            text-transform: none;
+            display: inline-block;
+            white-space: nowrap;
+            word-wrap: normal;
+            direction: ltr;
+            -webkit-font-feature-settings: 'liga';
+            -webkit-font-smoothing: antialiased;
+        }
+
+        body {
+            font-family: 'Roboto';
+        }
+    </style>
+    <style type="text/css">
+        .tg {
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+
+        .tg td {
+            border-color: black;
+            border-style: solid;
+            border-width: 1px;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            overflow: hidden;
+            padding: 10px 5px;
+            word-break: normal;
+        }
+
+        .tg th {
+            border-color: black;
+            border-style: solid;
+            border-width: 1px;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            font-weight: normal;
+            overflow: hidden;
+            padding: 10px 5px;
+            word-break: normal;
+        }
+
+        .tg .tg-o3c1 {
+            background-color: #FFF;
+            text-align: right;
+            vertical-align: middle
+        }
+
+        .tg .tg-b16q {
+            background-color: #081C80;
+            color: #FFF;
+            text-align: center;
+            vertical-align: middle
+        }
+
+        .tg .tg-qhuh {
+            background-color: #4522F5;
+            color: #FFFCFC;
+            font-weight: bold;
+            text-align: center;
+            vertical-align: middle
+        }
+
+        .tg .tg-8rcp {
+            background-color: #FFF;
+            font-weight: bold;
+            text-align: left;
+            vertical-align: middle
+        }
+
+        .tg .tg-jr8z {
+            background-color: #4522F5;
+            color: #FFF;
+            font-weight: bold;
+            text-align: center;
+            vertical-align: middle
+        }
+
+        .tg .tg-9hzb,
+        .tg-2g1l {
+            background-color: #FFF;
+            font-weight: bold !important;
+            text-align: center;
+            vertical-align: top
+        }
+
+        .tg .tg-kcps {
+            background-color: #FFF;
+            text-align: left;
+            vertical-align: bottom
+        }
+
+        .tg .tg-f4yw {
+            background-color: #FFF;
+            text-align: center;
+            vertical-align: middle
+        }
+
+        .tg .tg-zr06 {
+            background-color: #FFF;
+            text-align: left;
+            vertical-align: middle
+        }
+
+        .tg .tg-xrrf {
+            background-color: #4522F5;
+            color: #FFF;
+            text-align: right;
+            vertical-align: middle
+        }
+    </style>
+    <style type="text/css">
+        .tg {
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+
+        .tg td {
+            border-color: black;
+            border-style: solid;
+            border-width: 1px;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            overflow: hidden;
+            padding: 10px 5px;
+            word-break: normal;
+        }
+
+        .tg th {
+            border-color: black;
+            border-style: solid;
+            border-width: 1px;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            font-weight: normal;
+            overflow: hidden;
+            padding: 10px 5px;
+            word-break: normal;
+        }
+
+        .tg .tg-o3c1 {
+            background-color: #FFF;
+            text-align: right;
+            vertical-align: middle
+        }
+
+        .tg .tg-qhuh {
+            background-color: #4522F5;
+            color: #FFFCFC;
+            font-weight: bold;
+            text-align: center;
+            vertical-align: middle
+        }
+
+        .tg .tg-8rcp {
+            background-color: #FFF;
+            font-weight: bold;
+            text-align: left;
+            vertical-align: middle
+        }
+
+        .tg .tg-b59m {
+            background-color: #081C80;
+            color: #FFFCFC;
+            text-align: center;
+            vertical-align: middle
+        }
+
+        .tg .tg-jr8z {
+            background-color: #4522F5;
+            color: #FFF;
+            font-weight: bold;
+            text-align: center;
+            vertical-align: middle
+        }
+
+        .tg .tg-9hzb {
+            background-color: #FFF;
+            font-weight: bold;
+            text-align: center;
+            vertical-align: top
+        }
+
+        .tg .tg-f4yw {
+            background-color: #FFF;
+            text-align: center;
+            vertical-align: middle
+        }
+
+        .tg .tg-zr06 {
+            background-color: #FFF;
+            text-align: left;
+            vertical-align: middle
+        }
+
+        .tg .tg-xrrf {
+            background-color: #4522F5;
+            color: #FFF;
+            text-align: right;
+            vertical-align: middle
+        }
+
+        .tg .tg-kcps {
+            background-color: #FFF;
+            text-align: left;
+            vertical-align: bottom
+        }
+    </style>
+</head>
+
+<body>
+    <div id="q-app">
+        <q-layout view="hHh lpR fFf">
+            <q-header elevated="" class="bg-primary text-white" height-hint="98">
+                <q-toolbar class="bg-primary glossy text-white">
+                    <q-toolbar-title>
+                        <q-img spinner-color="primary" class="q-mx-md" spinner-size="82px" style="width: 90px;" src="../../../../../file.kbjatim.id/media/image/rumahdata_bw.svg"></q-img>
+                        
+                        <q-btn href="../../../index.htm" icon="home" label="HOME">
+
+                        </q-btn>
+                        <q-btn-dropdown label="Jawa Timur" icon="my_location" stretch="" flat="">
+                            <q-list bordered="">
+                                <q-item clickable="" v-ripple="" href="../provinsi/jawa_timur.html">
+                                    <q-item-section avatar="">
+                                        <q-icon color="primary" name="analytics"></q-icon>
+                                    </q-item-section>
+                                    <q-item-section avatar="">Data Grafik</q-item-section>
+                                </q-item>
+
+                                <q-item clickable="" v-ripple="">
+                                    <q-item-section avatar="">
+                                        <q-icon color="primary" name="topic"></q-icon>
+                                    </q-item-section>
+                                    <q-item-section avatar="">
+                                        Indikator Keluarga Berencana
+                                    </q-item-section>
+                                    <q-item-section>
+                                        <q-icon color="primary" name="keyboard_arrow_right"></q-icon>
+                                    </q-item-section>
+                                    <q-menu anchor="top end" self="top start">
+                                        <q-list style="min-width: 100px">
+                                            <q-item clickable="" v-close-popup="" href="kb_1.html">
+                                                <q-item-section>Jumlah Wanita Kawin (10-49 Tahun) Menurut Kelompok Umur Pendataan Keluarga Indonesia
+                                                </q-item-section>
+                                            </q-item>
+                                            <q-item clickable="" v-close-popup="" href="kb_3.html">
+                                                <q-item-section>Jumlah PUS Menurut Umur Kawin Pertama
+                                                    Pendataan Keluarga Indonesia
+                                                </q-item-section>
+                                            </q-item>
+                                            <q-item clickable="" v-close-popup="" href="kb_8.html">
+                                                <q-item-section>Jumlah PUS Status Hamil Menurut Empat Terlalu Dan Umur Anak Terkecil Pendataan Keluarga Indonesia
+                                                </q-item-section>
+                                            </q-item>
+                                            <q-item clickable="" v-close-popup="" href="kb_14.html">
+                                                <q-item-section>Jumlah PUS Bukan Peserta KB Menurut Alasan Tidak Ber-KB Pendataan Keluarga Indonesia
+                                                </q-item-section>
+                                            </q-item>
+                                        </q-list>
+                                    </q-menu>
+                                </q-item>
+                                <q-item clickable="" v-ripple="">
+                                    <q-item-section avatar="">
+                                        <q-icon color="primary" name="topic"></q-icon>
+                                    </q-item-section>
+                                    <q-item-section avatar="">
+                                        Indikator Kependudukan
+                                    </q-item-section>
+                                    <q-item-section>
+                                        <q-icon color="primary" name="keyboard_arrow_right"></q-icon>
+                                    </q-item-section>
+                                    <q-menu anchor="top end" self="top start">
+                                        <q-list style="min-width: 100px">
+                                            <q-item clickable="" v-close-popup="" href="kep_1.html">
+                                                <q-item-section>
+                                                    Jumlah Kepala Keluarga Laki-Laki Menurut Kelompok Umur
+                                                    Pendataan Keluarga Indonesia
+                                                </q-item-section>
+                                            </q-item>
+                                            <q-item clickable="" v-close-popup="" href="kep_9.html">
+                                                <q-item-section>
+                                                    Jumlah Kepala Keluarga Menurut Jenis Pekerjaan
+                                                    Pendataan Keluarga Indonesia
+                                                </q-item-section>
+                                            </q-item>
+                                            <q-item clickable="" v-close-popup="" href="kep_13.html">
+                                                <q-item-section>
+                                                    Jumlah Individu Dalam Keluarga Menurut Tingkat Pendidikan Terakhir
+                                                    Pendataan Keluarga Indonesia
+                                                </q-item-section>
+                                            </q-item>
+                                            <q-item clickable="" v-close-popup="" href="kep_16.html">
+                                                <q-item-section>
+                                                    Jumlah Anak Umur 7 - 12 Tahun Menurut Status Pendidikan
+                                                    Pendataan Keluarga Indonesia
+                                                </q-item-section>
+                                            </q-item>
+                                            <q-item clickable="" v-close-popup="" href="kep_20.html">
+                                                <q-item-section>
+                                                    Jumlah Individu Dalam Keluarga Menurut Kesertaan Dalam Jaminan Kesehatan
+                                                    Pendataan Keluarga Indonesia
+                                                </q-item-section>
+                                            </q-item>
+                                        </q-list>
+                                    </q-menu>
+                                </q-item>
+                                <q-item clickable="" v-ripple="">
+                                    <q-item-section avatar="">
+                                        <q-icon color="primary" name="topic"></q-icon>
+                                    </q-item-section>
+                                    <q-item-section avatar="">
+                                        Indikator Pembangunan Keluarga
+                                    </q-item-section>
+                                    <q-item-section>
+                                        <q-icon color="primary" name="keyboard_arrow_right"></q-icon>
+                                    </q-item-section>
+                                    <q-menu anchor="top end" self="top start">
+                                        <q-list style="min-width: 100px">
+                                            <q-item clickable="" v-close-popup="" href="pk_4.html">
+                                                <q-item-section>
+                                                    Jumlah Keluarga Menurut Variabel Rumah Layak Huni (1) Pendataan Keluarga Indonesia
+                                                </q-item-section>
+                                            </q-item>
+                                            <q-item clickable="" v-close-popup="" href="pk_6.html">
+                                                <q-item-section>
+                                                    Jumlah Keluarga Menurut Keikutsertaan Dalam Kelompok Ketahanan Keluarga Pendataan Keluarga Indonesia
+
+                                                </q-item-section>
+                                            </q-item>
+                                            <q-item clickable="" v-close-popup="" href="pk_7.html">
+                                                <q-item-section>
+                                                    Jumlah Keluarga Menurut Keikutsertaan Kegiatan Usaha Ekonomi Pendataan Keluarga Indonesia
+                                                </q-item-section>
+                                            </q-item>
+                                            <q-item clickable="" v-close-popup="" href="pk_8.html">
+                                                <q-item-section>
+                                                    Jumlah Keluarga Yang Ikut Serta Bina Keluarga Balita (BKB) Menurut Status PUS Dan Kesertaan Ber-KB Pendataan Keluarga Indonesia
+                                                </q-item-section>
+                                            </q-item>
+                                            <q-item clickable="" v-close-popup="" href="pk_9.html">
+                                                <q-item-section>
+                                                    Jumlah Keluarga Yang Ikut Serta Bina Keluarga Remaja (BKR) Menurut Status PUS Dan Kesertaan Ber-KB Pendataan Keluarga Indonesia
+                                                </q-item-section>
+                                            </q-item>
+                                        </q-list>
+                                    </q-menu>
+                                </q-item>
+                                <q-item clickable="" v-ripple="">
+                                    <q-item-section avatar="">
+                                        <q-icon color="primary" name="topic"></q-icon>
+                                    </q-item-section>
+                                    <q-item-section avatar="">
+                                        Data Stunting
+                                    </q-item-section>
+                                    <q-item-section>
+                                        <q-icon color="primary" name="keyboard_arrow_right"></q-icon>
+                                    </q-item-section>
+                                    <q-menu anchor="top end" self="top start">
+                                        <q-list style="min-width: 100px">
+                                            <q-item clickable="" v-close-popup="" href="stunting_2.html">
+                                                <q-item-section>
+                                                    Jumlah Keluarga Sasaran Menurut Penapisan Potensi Risiko Stunting Pendataan Keluarga Indonesia
+                                                </q-item-section>
+                                            </q-item>
+                                        </q-list>
+                                    </q-menu>
+                                </q-item>
+                            </q-list>
+                        </q-btn-dropdown>
+
+
+                        <q-btn-dropdown label="Kota Madiun" icon="my_location" stretch="">
+                            <q-list bordered="">
+                                <q-item clickable="" v-ripple="" href="../kota/madiun.html">
+                                    <q-item-section avatar="">
+                                        <q-icon color="primary" name="analytics"></q-icon>
+                                    </q-item-section>
+                                    <q-item-section>Data Grafik</q-item-section>
+
+                                </q-item>
+                                <q-item clickable="" v-ripple="">
+                                    <q-item-section avatar="">
+                                        <q-icon color="primary" name="topic"></q-icon>
+                                    </q-item-section>
+                                    <q-item-section avatar="">
+                                        Kota Madiun
+                                    </q-item-section>
+                                    <q-item-section>
+                                        <q-icon color="primary" name="keyboard_arrow_right"></q-icon>
+                                    </q-item-section>
+                                    <q-menu anchor="top end" self="top start">
+                                        <q-list style="min-width: 100px">
+                                            <q-item clickable="" v-close-popup="" href="../kota_madiun/kb.html">
+                                                <q-item-section>
+                                                    Indikator KB - Jumlah PUS Bukan Peserta KB Menurut Alasan Tidak Ber-KB Pendataan Keluarga Indonesia
+                                                </q-item-section>
+                                            </q-item>
+                                            <q-item clickable="" v-close-popup="" href="../kota_madiun/kep.html">
+                                                <q-item-section>
+                                                    Indikator Kependudukan - Jumlah Individu Dalam Keluarga Menurut Kesertaan Dalam Jaminan Kesehatan
+                                                    Pendataan Keluarga Indonesia
+                                                </q-item-section>
+                                            </q-item>
+                                            <q-item clickable="" v-close-popup="" href="../kota_madiun/pk.html">
+                                                <q-item-section>
+                                                    Indikator Pembangunan Keluarga - Jumlah Keluarga Menurut Variabel Rumah Layak Huni
+                                                </q-item-section>
+                                            </q-item>
+                                        </q-list>
+                                    </q-menu>
+                                </q-item>
+
+
+                                <q-item clickable="" v-ripple="">
+                                    <q-item-section avatar="">
+                                        <q-icon color="primary" name="topic"></q-icon>
+                                    </q-item-section>
+                                    <q-item-section avatar="">
+                                        Kec Kartoharjo
+                                    </q-item-section>
+                                    <q-item-section>
+                                        <q-icon color="primary" name="keyboard_arrow_right"></q-icon>
+                                    </q-item-section>
+                                    <q-menu anchor="top end" self="top start">
+                                        <q-list style="min-width: 100px">
+                                            <q-item clickable="" v-close-popup="" href="../kota_madiun/kb_kartoharjo.html">
+                                                <q-item-section>
+                                                    Indikator KB - Jumlah PUS Bukan Peserta KB Menurut Alasan Tidak Ber-KB Pendataan Keluarga Indonesia
+                                                </q-item-section>
+                                            </q-item>
+
+                                            <q-item clickable="" v-close-popup="" href="../kota_madiun/kep_kartoharjo.html">
+                                                <q-item-section>
+                                                    Indikator Kependudukan - Jumlah Individu Dalam Keluarga Menurut Kesertaan Dalam Jaminan Kesehatan Pendataan Keluarga Indonesia
+                                                </q-item-section>
+                                            </q-item>
+                                            <q-item clickable="" v-close-popup="" href="../kota_madiun/pk_kartoharjo.html">
+                                                <q-item-section>
+                                                    Indikator Pembangunan Keluarga - Jumlah Keluarga Yang Ikut Serta Bina Keluarga Remaja (BKR) Menurut Status PUS Dan Kesertaan Ber-KB
+                                                </q-item-section>
+                                            </q-item>
+
+                                        </q-list>
+                                    </q-menu>
+                                </q-item>
+                                <q-item clickable="" v-ripple="">
+                                    <q-item-section avatar="">
+                                        <q-icon color="primary q-pl-xl" name="topic"></q-icon>
+                                    </q-item-section>
+                                    <q-item-section avatar="">
+                                        Kelurahan RejoMulyo
+                                    </q-item-section>
+                                    <q-item-section>
+                                        <q-icon color="primary" name="keyboard_arrow_right"></q-icon>
+                                    </q-item-section>
+                                    <q-menu anchor="top end" self="top start">
+                                        <q-list style="min-width: 100px">
+                                            <q-item clickable="" v-close-popup="" href="../kota_madiun/kb_rejomulyo_kel.html">
+                                                <q-item-section>
+                                                    Indikator KB - Jumlah Pus Bukan Peserta Kb Menurut Alasan Tidak Ber-KB Pendataan Keluarga Indonesia
+                                                </q-item-section>
+                                            </q-item>
+                                            <q-item clickable="" v-close-popup="" href="../kota_madiun/kep_rejomulyo_kel.html">
+                                                <q-item-section>
+                                                    Indikator Kependudukan - Jumlah Individu Dalam Keluarga Menurut Kesertaan Dalam Jaminan Kesehatan Pendataan Keluarga Indonesia
+                                                </q-item-section>
+                                            </q-item>
+                                            <q-item clickable="" v-close-popup="" href="../kota_madiun/pk_rejomulyo_kel.html">
+                                                <q-item-section>
+                                                    Indikator Pembangunan Keluarga - Jumlah Keluarga Yang Ikut Serta Bina Keluarga Remaja (BKR) Menurut Status Pus Dan Kesertaan Ber-KB Pendataan Keluarga Indonesia
+                                                </q-item-section>
+                                            </q-item>
+                                        </q-list>
+                                    </q-menu>
+                                </q-item>
+
+                                <q-item clickable="" v-ripple="">
+                                    <q-item-section avatar="">
+                                        <q-icon color="primary" name="topic"></q-icon>
+                                    </q-item-section>
+                                    <q-item-section avatar="">
+                                        Kec Manguharjo
+                                    </q-item-section>
+                                    <q-item-section>
+                                        <q-icon color="primary" name="keyboard_arrow_right"></q-icon>
+                                    </q-item-section>
+                                    <q-menu anchor="top end" self="top start">
+                                        <q-list style="min-width: 100px">
+                                            <q-item clickable="" v-close-popup="" href="../kota_madiun/kb_manguharjo.html">
+                                                <q-item-section>
+                                                    Indikator KB - Jumlah PUS Bukan Peserta KB Menurut Alasan Tidak Ber-KB Pendataan Keluarga Indonesia
+                                                </q-item-section>
+                                            </q-item>
+                                            <q-item clickable="" v-close-popup="" href="../kota_madiun/kep_manguharjo.html">
+                                                <q-item-section>
+                                                    Indikator Kependudukan - Jumlah Anak Umur 7 - 12 Tahun Menurut Status Pendidikan Pendataan Keluarga Indonesia
+                                                </q-item-section>
+                                            </q-item>
+
+                                            <q-item clickable="" v-close-popup="" href="../kota_madiun/pk_manguharjo.html">
+                                                <q-item-section>
+                                                    Indikator Pembangunan Keluarga - Jumlah Keluarga Menurut Variabel Rumah Layak Huni
+                                                </q-item-section>
+                                            </q-item>
+                                        </q-list>
+                                    </q-menu>
+                                </q-item>
+                                <q-item clickable="" v-ripple="">
+                                    <q-item-section avatar="">
+                                        <q-icon color="primary" name="topic"></q-icon>
+                                    </q-item-section>
+                                    <q-item-section avatar="">
+                                        Kec Taman
+                                    </q-item-section>
+                                    <q-item-section>
+                                        <q-icon color="primary" name="keyboard_arrow_right"></q-icon>
+                                    </q-item-section>
+                                    <q-menu anchor="top end" self="top start">
+                                        <q-list style="min-width: 100px">
+                                            <q-item clickable="" v-close-popup="" href="../kota_madiun/kb_taman.html">
+                                                <q-item-section>
+                                                    Indikator KB - Jumlah PUS Bukan Peserta KB Menurut Alasan Tidak Ber-KB Pendataan Keluarga Indonesia
+                                                </q-item-section>
+                                            </q-item>
+                                            <q-item clickable="" v-close-popup="" href="../kota_madiun/kep_taman.html">
+                                                <q-item-section>
+                                                    Indikator Kependudukan - Jumlah Individu Dalam Keluarga Menurut Kesertaan Dalam Jaminan Kesehatan Pendataan Keluarga Indonesia
+                                                </q-item-section>
+                                            </q-item>
+                                            <q-item clickable="" v-close-popup="" href="../kota_madiun/pk_taman.html">
+                                                <q-item-section>
+                                                    Indikator Pembangunan Keluarga - Jumlah Keluarga Menurut Variabel Rumah Layak Huni
+                                                </q-item-section>
+                                            </q-item>
+                                        </q-list>
+                                    </q-menu>
+                                </q-item>
+                            </q-list>
+                        </q-btn-dropdown>
+                    </q-toolbar-title>
+                </q-toolbar>
+            </q-header>
+            <q-page-container>
+                <center> 
+		<table class="tg">
+			<thead>
+				<tr>
+					<th class="tg-2g1l" colspan="17">JUMLAH ANAK UMUR 7 - 12 TAHUN MENURUT STATUS PENDIDIKAN<br> PENDATAAN KELUARGA INDONESIA</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td class="tg-8rcp" colspan="17">PERIODE : 2021</td>
+				</tr>
+				<tr>
+					<td class="tg-8rcp" colspan="17">WILAYAH : Provinsi</td>
+				</tr>
+				<tr>
+					<td class="tg-qhuh" rowspan="3">KODE</td>
+					<td class="tg-qhuh" rowspan="3">KABUPATEN</td>
+					<td class="tg-qhuh" rowspan="3">JUMLAH <br> ANAK UMUR <br> 7-12<br> TAHUN</td>
+					<td class="tg-qhuh" colspan="4">TINGKAT PARTIPASI PENDIDIKAN PADA ANAK UMUR 7-12 TAHUN</td>
+					<td class="tg-qhuh" rowspan="3">JUMLAH <br> ANAK LAKI-<br> LAKI UMUR <br> 7-12 TAHUN</td>
+					<td class="tg-qhuh" colspan="4">TINGKAT PARTISIPASI PENDIDIKAN PADA ANAK LAKI - LAKI UMUR 7-12 TAHUN</td>
+					<td class="tg-qhuh" rowspan="3">JUMLAH <br> ANAK <br> PEREMPUAN <br> UMUR <br> 7-12 TAHUN</td>
+					<td class="tg-qhuh" colspan="4">TINGKAT PARTISIPASI PENDIDIKAN PADA ANAK PEREMPUAN UMUR 7-12 TAHUN</td>
+				</tr>
+				<tr>
+					<td class="tg-qhuh" colspan="2">MASIH SEKOLAH</td>
+					<td class="tg-qhuh" colspan="2">TIDAK SEKOLAH</td>
+					<td class="tg-qhuh" colspan="2">MASIH SEKOLAH</td>
+					<td class="tg-qhuh" colspan="2">TIDAK SEKOLAH</td>
+					<td class="tg-qhuh" colspan="2">MASIH SEKOLAH</td>
+					<td class="tg-qhuh" colspan="2">TIDAK SEKOLAH</td>
+				</tr>
+				<tr>
+					<td class="tg-qhuh">JUMLAH</td>
+					<td class="tg-qhuh">%</td>
+					<td class="tg-qhuh">JUMLAH</td>
+					<td class="tg-qhuh">%</td>
+					<td class="tg-qhuh">JUMLAH</td>
+					<td class="tg-qhuh">%</td>
+					<td class="tg-qhuh">JUMLAH</td>
+					<td class="tg-qhuh">%</td>
+					<td class="tg-qhuh">JUMLAH</td>
+					<td class="tg-qhuh">%</td>
+					<td class="tg-qhuh">JUMLAH</td>
+					<td class="tg-qhuh">%</td>
+				</tr>
+				<tr>
+					<td class="tg-b59m">1</td>
+					<td class="tg-b59m">2</td>
+					<td class="tg-b59m">3</td>
+					<td class="tg-b59m">4</td>
+					<td class="tg-b59m">5=4/3*100</td>
+					<td class="tg-b59m">6</td>
+					<td class="tg-b59m">7=6/3*100</td>
+					<td class="tg-b59m">8</td>
+					<td class="tg-b59m">9</td>
+					<td class="tg-b59m">10=9/8*100</td>
+					<td class="tg-b59m">11</td>
+					<td class="tg-b59m">12=11/8*100</td>
+					<td class="tg-b59m">13</td>
+					<td class="tg-b59m">14</td>
+					<td class="tg-b59m">15=14/13*100</td>
+					<td class="tg-b59m">16</td>
+					<td class="tg-b59m">17=16/13*100</td>
+				</tr>
+				<tr>
+					<td class="tg-f4yw">01</td>
+					<td class="tg-zr06">PACITAN</td>
+					<td class="tg-o3c1">43,423</td>
+					<td class="tg-o3c1">40,519</td>
+					<td class="tg-o3c1">93.31</td>
+					<td class="tg-o3c1">2,904</td>
+					<td class="tg-o3c1">6.69</td>
+					<td class="tg-o3c1">22,452</td>
+					<td class="tg-o3c1">20,882</td>
+					<td class="tg-o3c1">93.01</td>
+					<td class="tg-o3c1">1,570</td>
+					<td class="tg-o3c1">6.99</td>
+					<td class="tg-o3c1">20,971</td>
+					<td class="tg-o3c1">19,637</td>
+					<td class="tg-o3c1">93.64</td>
+					<td class="tg-o3c1">1,334</td>
+					<td class="tg-o3c1">6.36</td>
+				</tr>
+				<tr>
+					<td class="tg-f4yw">02</td>
+					<td class="tg-zr06">PONOROGO</td>
+					<td class="tg-o3c1">70,120</td>
+					<td class="tg-o3c1">65,244</td>
+					<td class="tg-o3c1">93.05</td>
+					<td class="tg-o3c1">4,876</td>
+					<td class="tg-o3c1">6.95</td>
+					<td class="tg-o3c1">36,144</td>
+					<td class="tg-o3c1">33,570</td>
+					<td class="tg-o3c1">92.88</td>
+					<td class="tg-o3c1">2,574</td>
+					<td class="tg-o3c1">7.12</td>
+					<td class="tg-o3c1">33,976</td>
+					<td class="tg-o3c1">31,674</td>
+					<td class="tg-o3c1">93.22</td>
+					<td class="tg-o3c1">2,302</td>
+					<td class="tg-o3c1">6.78</td>
+				</tr>
+				<tr>
+					<td class="tg-f4yw">03</td>
+					<td class="tg-zr06">TRENGGALEK</td>
+					<td class="tg-o3c1">56,534</td>
+					<td class="tg-o3c1">52,130</td>
+					<td class="tg-o3c1">92.21</td>
+					<td class="tg-o3c1">4,404</td>
+					<td class="tg-o3c1">7.79</td>
+					<td class="tg-o3c1">29,184</td>
+					<td class="tg-o3c1">26,850</td>
+					<td class="tg-o3c1">92.00</td>
+					<td class="tg-o3c1">2,334</td>
+					<td class="tg-o3c1">8.00</td>
+					<td class="tg-o3c1">27,350</td>
+					<td class="tg-o3c1">25,280</td>
+					<td class="tg-o3c1">92.43</td>
+					<td class="tg-o3c1">2,070</td>
+					<td class="tg-o3c1">7.57</td>
+				</tr>
+				<tr>
+					<td class="tg-f4yw">04</td>
+					<td class="tg-zr06">TULUNGAGUNG</td>
+					<td class="tg-o3c1">87,975</td>
+					<td class="tg-o3c1">81,550</td>
+					<td class="tg-o3c1">92.70</td>
+					<td class="tg-o3c1">6,425</td>
+					<td class="tg-o3c1">7.30</td>
+					<td class="tg-o3c1">45,527</td>
+					<td class="tg-o3c1">42,126</td>
+					<td class="tg-o3c1">92.53</td>
+					<td class="tg-o3c1">3,401</td>
+					<td class="tg-o3c1">7.47</td>
+					<td class="tg-o3c1">42,448</td>
+					<td class="tg-o3c1">39,424</td>
+					<td class="tg-o3c1">92.88</td>
+					<td class="tg-o3c1">3,024</td>
+					<td class="tg-o3c1">7.12</td>
+				</tr>
+				<tr>
+					<td class="tg-f4yw">05</td>
+					<td class="tg-zr06">BLITAR</td>
+					<td class="tg-o3c1">107,142</td>
+					<td class="tg-o3c1">100,693</td>
+					<td class="tg-o3c1">93.98</td>
+					<td class="tg-o3c1">6,449</td>
+					<td class="tg-o3c1">6.02</td>
+					<td class="tg-o3c1">55,318</td>
+					<td class="tg-o3c1">51,741</td>
+					<td class="tg-o3c1">93.53</td>
+					<td class="tg-o3c1">3,577</td>
+					<td class="tg-o3c1">6.47</td>
+					<td class="tg-o3c1">51,824</td>
+					<td class="tg-o3c1">48,952</td>
+					<td class="tg-o3c1">94.46</td>
+					<td class="tg-o3c1">2,872</td>
+					<td class="tg-o3c1">5.54</td>
+				</tr>
+				<tr>
+					<td class="tg-f4yw">06</td>
+					<td class="tg-zr06">KEDIRI</td>
+					<td class="tg-o3c1">147,059</td>
+					<td class="tg-o3c1">137,552</td>
+					<td class="tg-o3c1">93.54</td>
+					<td class="tg-o3c1">9,507</td>
+					<td class="tg-o3c1">6.46</td>
+					<td class="tg-o3c1">75,968</td>
+					<td class="tg-o3c1">70,820</td>
+					<td class="tg-o3c1">93.22</td>
+					<td class="tg-o3c1">5,148</td>
+					<td class="tg-o3c1">6.78</td>
+					<td class="tg-o3c1">71,091</td>
+					<td class="tg-o3c1">66,732</td>
+					<td class="tg-o3c1">93.87</td>
+					<td class="tg-o3c1">4,359</td>
+					<td class="tg-o3c1">6.13</td>
+				</tr>
+				<tr>
+					<td class="tg-f4yw">07</td>
+					<td class="tg-zr06">MALANG</td>
+					<td class="tg-o3c1">235,819</td>
+					<td class="tg-o3c1">218,903</td>
+					<td class="tg-o3c1">92.83</td>
+					<td class="tg-o3c1">16,916</td>
+					<td class="tg-o3c1">7.17</td>
+					<td class="tg-o3c1">121,113</td>
+					<td class="tg-o3c1">112,154</td>
+					<td class="tg-o3c1">92.60</td>
+					<td class="tg-o3c1">8,959</td>
+					<td class="tg-o3c1">7.40</td>
+					<td class="tg-o3c1">114,706</td>
+					<td class="tg-o3c1">106,749</td>
+					<td class="tg-o3c1">93.06</td>
+					<td class="tg-o3c1">7,957</td>
+					<td class="tg-o3c1">6.94</td>
+				</tr>
+				<tr>
+					<td class="tg-f4yw">08</td>
+					<td class="tg-zr06">LUMAJANG</td>
+					<td class="tg-o3c1">83,228</td>
+					<td class="tg-o3c1">75,306</td>
+					<td class="tg-o3c1">90.48</td>
+					<td class="tg-o3c1">7,922</td>
+					<td class="tg-o3c1">9.52</td>
+					<td class="tg-o3c1">42,775</td>
+					<td class="tg-o3c1">38,610</td>
+					<td class="tg-o3c1">90.26</td>
+					<td class="tg-o3c1">4,165</td>
+					<td class="tg-o3c1">9.74</td>
+					<td class="tg-o3c1">40,453</td>
+					<td class="tg-o3c1">36,696</td>
+					<td class="tg-o3c1">90.71</td>
+					<td class="tg-o3c1">3,757</td>
+					<td class="tg-o3c1">9.29</td>
+				</tr>
+				<tr>
+					<td class="tg-f4yw">09</td>
+					<td class="tg-zr06">JEMBER</td>
+					<td class="tg-o3c1">191,823</td>
+					<td class="tg-o3c1">170,270</td>
+					<td class="tg-o3c1">88.76</td>
+					<td class="tg-o3c1">21,553</td>
+					<td class="tg-o3c1">11.24</td>
+					<td class="tg-o3c1">98,734</td>
+					<td class="tg-o3c1">87,378</td>
+					<td class="tg-o3c1">88.50</td>
+					<td class="tg-o3c1">11,356</td>
+					<td class="tg-o3c1">11.50</td>
+					<td class="tg-o3c1">93,089</td>
+					<td class="tg-o3c1">82,892</td>
+					<td class="tg-o3c1">89.05</td>
+					<td class="tg-o3c1">10,197</td>
+					<td class="tg-o3c1">10.95</td>
+				</tr>
+				<tr>
+					<td class="tg-f4yw">10</td>
+					<td class="tg-zr06">BANYUWANGI</td>
+					<td class="tg-o3c1">132,666</td>
+					<td class="tg-o3c1">122,150</td>
+					<td class="tg-o3c1">92.07</td>
+					<td class="tg-o3c1">10,516</td>
+					<td class="tg-o3c1">7.93</td>
+					<td class="tg-o3c1">68,316</td>
+					<td class="tg-o3c1">62,804</td>
+					<td class="tg-o3c1">91.93</td>
+					<td class="tg-o3c1">5,512</td>
+					<td class="tg-o3c1">8.07</td>
+					<td class="tg-o3c1">64,350</td>
+					<td class="tg-o3c1">59,346</td>
+					<td class="tg-o3c1">92.22</td>
+					<td class="tg-o3c1">5,004</td>
+					<td class="tg-o3c1">7.78</td>
+				</tr>
+				<tr>
+					<td class="tg-f4yw">11</td>
+					<td class="tg-zr06">BONDOWOSO</td>
+					<td class="tg-o3c1">58,502</td>
+					<td class="tg-o3c1">52,611</td>
+					<td class="tg-o3c1">89.93</td>
+					<td class="tg-o3c1">5,891</td>
+					<td class="tg-o3c1">10.07</td>
+					<td class="tg-o3c1">29,862</td>
+					<td class="tg-o3c1">26,706</td>
+					<td class="tg-o3c1">89.43</td>
+					<td class="tg-o3c1">3,156</td>
+					<td class="tg-o3c1">10.57</td>
+					<td class="tg-o3c1">28,640</td>
+					<td class="tg-o3c1">25,905</td>
+					<td class="tg-o3c1">90.45</td>
+					<td class="tg-o3c1">2,735</td>
+					<td class="tg-o3c1">9.55</td>
+				</tr>
+				<tr>
+					<td class="tg-f4yw">12</td>
+					<td class="tg-zr06">SITUBONDO</td>
+					<td class="tg-o3c1">48,626</td>
+					<td class="tg-o3c1">42,954</td>
+					<td class="tg-o3c1">88.34</td>
+					<td class="tg-o3c1">5,672</td>
+					<td class="tg-o3c1">11.66</td>
+					<td class="tg-o3c1">24,955</td>
+					<td class="tg-o3c1">21,996</td>
+					<td class="tg-o3c1">88.14</td>
+					<td class="tg-o3c1">2,959</td>
+					<td class="tg-o3c1">11.86</td>
+					<td class="tg-o3c1">23,671</td>
+					<td class="tg-o3c1">20,958</td>
+					<td class="tg-o3c1">88.54</td>
+					<td class="tg-o3c1">2,713</td>
+					<td class="tg-o3c1">11.46</td>
+				</tr>
+				<tr>
+					<td class="tg-f4yw">13</td>
+					<td class="tg-zr06">PROBOLINGGO</td>
+					<td class="tg-o3c1">98,100</td>
+					<td class="tg-o3c1">85,890</td>
+					<td class="tg-o3c1">87.55</td>
+					<td class="tg-o3c1">12,210</td>
+					<td class="tg-o3c1">12.45</td>
+					<td class="tg-o3c1">50,703</td>
+					<td class="tg-o3c1">44,243</td>
+					<td class="tg-o3c1">87.26</td>
+					<td class="tg-o3c1">6,460</td>
+					<td class="tg-o3c1">12.74</td>
+					<td class="tg-o3c1">47,397</td>
+					<td class="tg-o3c1">41,647</td>
+					<td class="tg-o3c1">87.87</td>
+					<td class="tg-o3c1">5,750</td>
+					<td class="tg-o3c1">12.13</td>
+				</tr>
+				<tr>
+					<td class="tg-f4yw">14</td>
+					<td class="tg-zr06">PASURUAN</td>
+					<td class="tg-o3c1">141,024</td>
+					<td class="tg-o3c1">128,630</td>
+					<td class="tg-o3c1">91.21</td>
+					<td class="tg-o3c1">12,394</td>
+					<td class="tg-o3c1">8.79</td>
+					<td class="tg-o3c1">73,398</td>
+					<td class="tg-o3c1">66,688</td>
+					<td class="tg-o3c1">90.86</td>
+					<td class="tg-o3c1">6,710</td>
+					<td class="tg-o3c1">9.14</td>
+					<td class="tg-o3c1">67,626</td>
+					<td class="tg-o3c1">61,942</td>
+					<td class="tg-o3c1">91.59</td>
+					<td class="tg-o3c1">5,684</td>
+					<td class="tg-o3c1">8.41</td>
+				</tr>
+				<tr>
+					<td class="tg-f4yw">15</td>
+					<td class="tg-zr06">SIDOARJO</td>
+					<td class="tg-o3c1">174,073</td>
+					<td class="tg-o3c1">163,171</td>
+					<td class="tg-o3c1">93.74</td>
+					<td class="tg-o3c1">10,902</td>
+					<td class="tg-o3c1">6.26</td>
+					<td class="tg-o3c1">90,261</td>
+					<td class="tg-o3c1">84,464</td>
+					<td class="tg-o3c1">93.58</td>
+					<td class="tg-o3c1">5,797</td>
+					<td class="tg-o3c1">6.42</td>
+					<td class="tg-o3c1">83,812</td>
+					<td class="tg-o3c1">78,707</td>
+					<td class="tg-o3c1">93.91</td>
+					<td class="tg-o3c1">5,105</td>
+					<td class="tg-o3c1">6.09</td>
+				</tr>
+				<tr>
+					<td class="tg-f4yw">16</td>
+					<td class="tg-zr06">MOJOKERTO</td>
+					<td class="tg-o3c1">98,874</td>
+					<td class="tg-o3c1">92,335</td>
+					<td class="tg-o3c1">93.39</td>
+					<td class="tg-o3c1">6,539</td>
+					<td class="tg-o3c1">6.61</td>
+					<td class="tg-o3c1">51,010</td>
+					<td class="tg-o3c1">47,488</td>
+					<td class="tg-o3c1">93.10</td>
+					<td class="tg-o3c1">3,522</td>
+					<td class="tg-o3c1">6.90</td>
+					<td class="tg-o3c1">47,864</td>
+					<td class="tg-o3c1">44,847</td>
+					<td class="tg-o3c1">93.70</td>
+					<td class="tg-o3c1">3,017</td>
+					<td class="tg-o3c1">6.30</td>
+				</tr>
+				<tr>
+					<td class="tg-f4yw">17</td>
+					<td class="tg-zr06">JOMBANG</td>
+					<td class="tg-o3c1">118,998</td>
+					<td class="tg-o3c1">111,870</td>
+					<td class="tg-o3c1">94.01</td>
+					<td class="tg-o3c1">7,128</td>
+					<td class="tg-o3c1">5.99</td>
+					<td class="tg-o3c1">61,557</td>
+					<td class="tg-o3c1">57,739</td>
+					<td class="tg-o3c1">93.80</td>
+					<td class="tg-o3c1">3,818</td>
+					<td class="tg-o3c1">6.20</td>
+					<td class="tg-o3c1">57,441</td>
+					<td class="tg-o3c1">54,131</td>
+					<td class="tg-o3c1">94.24</td>
+					<td class="tg-o3c1">3,310</td>
+					<td class="tg-o3c1">5.76</td>
+				</tr>
+				<tr>
+					<td class="tg-f4yw">18</td>
+					<td class="tg-zr06">NGANJUK</td>
+					<td class="tg-o3c1">95,828</td>
+					<td class="tg-o3c1">90,147</td>
+					<td class="tg-o3c1">94.07</td>
+					<td class="tg-o3c1">5,681</td>
+					<td class="tg-o3c1">5.93</td>
+					<td class="tg-o3c1">49,323</td>
+					<td class="tg-o3c1">46,258</td>
+					<td class="tg-o3c1">93.79</td>
+					<td class="tg-o3c1">3,065</td>
+					<td class="tg-o3c1">6.21</td>
+					<td class="tg-o3c1">46,505</td>
+					<td class="tg-o3c1">43,889</td>
+					<td class="tg-o3c1">94.37</td>
+					<td class="tg-o3c1">2,616</td>
+					<td class="tg-o3c1">5.63</td>
+				</tr>
+				<tr>
+					<td class="tg-f4yw">19</td>
+					<td class="tg-zr06">MADIUN</td>
+					<td class="tg-o3c1">58,547</td>
+					<td class="tg-o3c1">55,420</td>
+					<td class="tg-o3c1">94.66</td>
+					<td class="tg-o3c1">3,127</td>
+					<td class="tg-o3c1">5.34</td>
+					<td class="tg-o3c1">30,337</td>
+					<td class="tg-o3c1">28,682</td>
+					<td class="tg-o3c1">94.54</td>
+					<td class="tg-o3c1">1,655</td>
+					<td class="tg-o3c1">5.46</td>
+					<td class="tg-o3c1">28,210</td>
+					<td class="tg-o3c1">26,738</td>
+					<td class="tg-o3c1">94.78</td>
+					<td class="tg-o3c1">1,472</td>
+					<td class="tg-o3c1">5.22</td>
+				</tr>
+				<tr>
+					<td class="tg-f4yw">20</td>
+					<td class="tg-zr06">MAGETAN</td>
+					<td class="tg-o3c1">53,264</td>
+					<td class="tg-o3c1">50,681</td>
+					<td class="tg-o3c1">95.15</td>
+					<td class="tg-o3c1">2,583</td>
+					<td class="tg-o3c1">4.85</td>
+					<td class="tg-o3c1">27,235</td>
+					<td class="tg-o3c1">25,813</td>
+					<td class="tg-o3c1">94.78</td>
+					<td class="tg-o3c1">1,422</td>
+					<td class="tg-o3c1">5.22</td>
+					<td class="tg-o3c1">26,029</td>
+					<td class="tg-o3c1">24,868</td>
+					<td class="tg-o3c1">95.54</td>
+					<td class="tg-o3c1">1,161</td>
+					<td class="tg-o3c1">4.46</td>
+				</tr>
+				<tr>
+					<td class="tg-f4yw">21</td>
+					<td class="tg-zr06">NGAWI</td>
+					<td class="tg-o3c1">68,271</td>
+					<td class="tg-o3c1">64,070</td>
+					<td class="tg-o3c1">93.85</td>
+					<td class="tg-o3c1">4,201</td>
+					<td class="tg-o3c1">6.15</td>
+					<td class="tg-o3c1">35,262</td>
+					<td class="tg-o3c1">33,078</td>
+					<td class="tg-o3c1">93.81</td>
+					<td class="tg-o3c1">2,184</td>
+					<td class="tg-o3c1">6.19</td>
+					<td class="tg-o3c1">33,009</td>
+					<td class="tg-o3c1">30,992</td>
+					<td class="tg-o3c1">93.89</td>
+					<td class="tg-o3c1">2,017</td>
+					<td class="tg-o3c1">6.11</td>
+				</tr>
+				<tr>
+					<td class="tg-f4yw">22</td>
+					<td class="tg-zr06">BOJONEGORO</td>
+					<td class="tg-o3c1">103,938</td>
+					<td class="tg-o3c1">96,719</td>
+					<td class="tg-o3c1">93.05</td>
+					<td class="tg-o3c1">7,219</td>
+					<td class="tg-o3c1">6.95</td>
+					<td class="tg-o3c1">53,893</td>
+					<td class="tg-o3c1">50,065</td>
+					<td class="tg-o3c1">92.90</td>
+					<td class="tg-o3c1">3,828</td>
+					<td class="tg-o3c1">7.10</td>
+					<td class="tg-o3c1">50,045</td>
+					<td class="tg-o3c1">46,654</td>
+					<td class="tg-o3c1">93.22</td>
+					<td class="tg-o3c1">3,391</td>
+					<td class="tg-o3c1">6.78</td>
+				</tr>
+				<tr>
+					<td class="tg-f4yw">23</td>
+					<td class="tg-zr06">TUBAN</td>
+					<td class="tg-o3c1">96,126</td>
+					<td class="tg-o3c1">88,764</td>
+					<td class="tg-o3c1">92.34</td>
+					<td class="tg-o3c1">7,362</td>
+					<td class="tg-o3c1">7.66</td>
+					<td class="tg-o3c1">49,830</td>
+					<td class="tg-o3c1">45,924</td>
+					<td class="tg-o3c1">92.16</td>
+					<td class="tg-o3c1">3,906</td>
+					<td class="tg-o3c1">7.84</td>
+					<td class="tg-o3c1">46,296</td>
+					<td class="tg-o3c1">42,840</td>
+					<td class="tg-o3c1">92.53</td>
+					<td class="tg-o3c1">3,456</td>
+					<td class="tg-o3c1">7.47</td>
+				</tr>
+				<tr>
+					<td class="tg-f4yw">24</td>
+					<td class="tg-zr06">LAMONGAN</td>
+					<td class="tg-o3c1">99,122</td>
+					<td class="tg-o3c1">92,876</td>
+					<td class="tg-o3c1">93.70</td>
+					<td class="tg-o3c1">6,246</td>
+					<td class="tg-o3c1">6.30</td>
+					<td class="tg-o3c1">51,460</td>
+					<td class="tg-o3c1">48,052</td>
+					<td class="tg-o3c1">93.38</td>
+					<td class="tg-o3c1">3,408</td>
+					<td class="tg-o3c1">6.62</td>
+					<td class="tg-o3c1">47,662</td>
+					<td class="tg-o3c1">44,824</td>
+					<td class="tg-o3c1">94.05</td>
+					<td class="tg-o3c1">2,838</td>
+					<td class="tg-o3c1">5.95</td>
+				</tr>
+				<tr>
+					<td class="tg-f4yw">25</td>
+					<td class="tg-zr06">GRESIK</td>
+					<td class="tg-o3c1">117,607</td>
+					<td class="tg-o3c1">110,356</td>
+					<td class="tg-o3c1">93.83</td>
+					<td class="tg-o3c1">7,251</td>
+					<td class="tg-o3c1">6.17</td>
+					<td class="tg-o3c1">60,850</td>
+					<td class="tg-o3c1">56,993</td>
+					<td class="tg-o3c1">93.66</td>
+					<td class="tg-o3c1">3,857</td>
+					<td class="tg-o3c1">6.34</td>
+					<td class="tg-o3c1">56,757</td>
+					<td class="tg-o3c1">53,363</td>
+					<td class="tg-o3c1">94.02</td>
+					<td class="tg-o3c1">3,394</td>
+					<td class="tg-o3c1">5.98</td>
+				</tr>
+				<tr>
+					<td class="tg-f4yw">26</td>
+					<td class="tg-zr06">BANGKALAN</td>
+					<td class="tg-o3c1">69,011</td>
+					<td class="tg-o3c1">52,111</td>
+					<td class="tg-o3c1">75.51</td>
+					<td class="tg-o3c1">16,900</td>
+					<td class="tg-o3c1">24.49</td>
+					<td class="tg-o3c1">35,640</td>
+					<td class="tg-o3c1">26,906</td>
+					<td class="tg-o3c1">75.49</td>
+					<td class="tg-o3c1">8,734</td>
+					<td class="tg-o3c1">24.51</td>
+					<td class="tg-o3c1">33,371</td>
+					<td class="tg-o3c1">25,205</td>
+					<td class="tg-o3c1">75.53</td>
+					<td class="tg-o3c1">8,166</td>
+					<td class="tg-o3c1">24.47</td>
+				</tr>
+				<tr>
+					<td class="tg-f4yw">27</td>
+					<td class="tg-zr06">SAMPANG</td>
+					<td class="tg-o3c1">65,779</td>
+					<td class="tg-o3c1">45,326</td>
+					<td class="tg-o3c1">68.91</td>
+					<td class="tg-o3c1">20,453</td>
+					<td class="tg-o3c1">31.09</td>
+					<td class="tg-o3c1">33,620</td>
+					<td class="tg-o3c1">23,087</td>
+					<td class="tg-o3c1">68.67</td>
+					<td class="tg-o3c1">10,533</td>
+					<td class="tg-o3c1">31.33</td>
+					<td class="tg-o3c1">32,159</td>
+					<td class="tg-o3c1">22,239</td>
+					<td class="tg-o3c1">69.15</td>
+					<td class="tg-o3c1">9,920</td>
+					<td class="tg-o3c1">30.85</td>
+				</tr>
+				<tr>
+					<td class="tg-f4yw">28</td>
+					<td class="tg-zr06">PAMEKASAN</td>
+					<td class="tg-o3c1">69,587</td>
+					<td class="tg-o3c1">56,403</td>
+					<td class="tg-o3c1">81.05</td>
+					<td class="tg-o3c1">13,184</td>
+					<td class="tg-o3c1">18.95</td>
+					<td class="tg-o3c1">35,921</td>
+					<td class="tg-o3c1">29,084</td>
+					<td class="tg-o3c1">80.97</td>
+					<td class="tg-o3c1">6,837</td>
+					<td class="tg-o3c1">19.03</td>
+					<td class="tg-o3c1">33,666</td>
+					<td class="tg-o3c1">27,319</td>
+					<td class="tg-o3c1">81.15</td>
+					<td class="tg-o3c1">6,347</td>
+					<td class="tg-o3c1">18.85</td>
+				</tr>
+				<tr>
+					<td class="tg-f4yw">29</td>
+					<td class="tg-zr06">SUMENEP</td>
+					<td class="tg-o3c1">61,020</td>
+					<td class="tg-o3c1">48,094</td>
+					<td class="tg-o3c1">78.82</td>
+					<td class="tg-o3c1">12,926</td>
+					<td class="tg-o3c1">21.18</td>
+					<td class="tg-o3c1">31,618</td>
+					<td class="tg-o3c1">24,898</td>
+					<td class="tg-o3c1">78.75</td>
+					<td class="tg-o3c1">6,720</td>
+					<td class="tg-o3c1">21.25</td>
+					<td class="tg-o3c1">29,402</td>
+					<td class="tg-o3c1">23,196</td>
+					<td class="tg-o3c1">78.89</td>
+					<td class="tg-o3c1">6,206</td>
+					<td class="tg-o3c1">21.11</td>
+				</tr>
+				<tr>
+					<td class="tg-f4yw">71</td>
+					<td class="tg-zr06">KOTA KEDIRI</td>
+					<td class="tg-o3c1">23,666</td>
+					<td class="tg-o3c1">22,237</td>
+					<td class="tg-o3c1">93.96</td>
+					<td class="tg-o3c1">1,429</td>
+					<td class="tg-o3c1">6.04</td>
+					<td class="tg-o3c1">12,290</td>
+					<td class="tg-o3c1">11,519</td>
+					<td class="tg-o3c1">93.73</td>
+					<td class="tg-o3c1">771</td>
+					<td class="tg-o3c1">6.27</td>
+					<td class="tg-o3c1">11,376</td>
+					<td class="tg-o3c1">10,718</td>
+					<td class="tg-o3c1">94.22</td>
+					<td class="tg-o3c1">658</td>
+					<td class="tg-o3c1">5.78</td>
+				</tr>
+				<tr>
+					<td class="tg-f4yw">72</td>
+					<td class="tg-zr06">KOTA BLITAR</td>
+					<td class="tg-o3c1">13,262</td>
+					<td class="tg-o3c1">12,722</td>
+					<td class="tg-o3c1">95.93</td>
+					<td class="tg-o3c1">540</td>
+					<td class="tg-o3c1">4.07</td>
+					<td class="tg-o3c1">6,829</td>
+					<td class="tg-o3c1">6,529</td>
+					<td class="tg-o3c1">95.61</td>
+					<td class="tg-o3c1">300</td>
+					<td class="tg-o3c1">4.39</td>
+					<td class="tg-o3c1">6,433</td>
+					<td class="tg-o3c1">6,193</td>
+					<td class="tg-o3c1">96.27</td>
+					<td class="tg-o3c1">240</td>
+					<td class="tg-o3c1">3.73</td>
+				</tr>
+				<tr>
+					<td class="tg-f4yw">73</td>
+					<td class="tg-zr06">KOTA MALANG</td>
+					<td class="tg-o3c1">66,289</td>
+					<td class="tg-o3c1">61,472</td>
+					<td class="tg-o3c1">92.73</td>
+					<td class="tg-o3c1">4,817</td>
+					<td class="tg-o3c1">7.27</td>
+					<td class="tg-o3c1">34,178</td>
+					<td class="tg-o3c1">31,672</td>
+					<td class="tg-o3c1">92.67</td>
+					<td class="tg-o3c1">2,506</td>
+					<td class="tg-o3c1">7.33</td>
+					<td class="tg-o3c1">32,111</td>
+					<td class="tg-o3c1">29,800</td>
+					<td class="tg-o3c1">92.80</td>
+					<td class="tg-o3c1">2,311</td>
+					<td class="tg-o3c1">7.20</td>
+				</tr>
+				<tr>
+					<td class="tg-f4yw">74</td>
+					<td class="tg-zr06">KOTA PROBOLINGGO</td>
+					<td class="tg-o3c1">20,865</td>
+					<td class="tg-o3c1">18,602</td>
+					<td class="tg-o3c1">89.15</td>
+					<td class="tg-o3c1">2,263</td>
+					<td class="tg-o3c1">10.85</td>
+					<td class="tg-o3c1">10,692</td>
+					<td class="tg-o3c1">9,524</td>
+					<td class="tg-o3c1">89.08</td>
+					<td class="tg-o3c1">1,168</td>
+					<td class="tg-o3c1">10.92</td>
+					<td class="tg-o3c1">10,173</td>
+					<td class="tg-o3c1">9,078</td>
+					<td class="tg-o3c1">89.24</td>
+					<td class="tg-o3c1">1,095</td>
+					<td class="tg-o3c1">10.76</td>
+				</tr>
+				<tr>
+					<td class="tg-f4yw">75</td>
+					<td class="tg-zr06">KOTA PASURUAN</td>
+					<td class="tg-o3c1">18,670</td>
+					<td class="tg-o3c1">17,225</td>
+					<td class="tg-o3c1">92.26</td>
+					<td class="tg-o3c1">1,445</td>
+					<td class="tg-o3c1">7.74</td>
+					<td class="tg-o3c1">9,671</td>
+					<td class="tg-o3c1">8,947</td>
+					<td class="tg-o3c1">92.51</td>
+					<td class="tg-o3c1">724</td>
+					<td class="tg-o3c1">7.49</td>
+					<td class="tg-o3c1">8,999</td>
+					<td class="tg-o3c1">8,278</td>
+					<td class="tg-o3c1">91.99</td>
+					<td class="tg-o3c1">721</td>
+					<td class="tg-o3c1">8.01</td>
+				</tr>
+				<tr>
+					<td class="tg-f4yw">76</td>
+					<td class="tg-zr06">KOTA MOJOKERTO</td>
+					<td class="tg-o3c1">10,754</td>
+					<td class="tg-o3c1">10,047</td>
+					<td class="tg-o3c1">93.43</td>
+					<td class="tg-o3c1">707</td>
+					<td class="tg-o3c1">6.57</td>
+					<td class="tg-o3c1">5,389</td>
+					<td class="tg-o3c1">5,021</td>
+					<td class="tg-o3c1">93.17</td>
+					<td class="tg-o3c1">368</td>
+					<td class="tg-o3c1">6.83</td>
+					<td class="tg-o3c1">5,365</td>
+					<td class="tg-o3c1">5,026</td>
+					<td class="tg-o3c1">93.68</td>
+					<td class="tg-o3c1">339</td>
+					<td class="tg-o3c1">6.32</td>
+				</tr>
+				<tr>
+					<td class="tg-f4yw">77</td>
+					<td class="tg-zr06">KOTA MADIUN</td>
+					<td class="tg-o3c1">13,235</td>
+					<td class="tg-o3c1">12,457</td>
+					<td class="tg-o3c1">94.12</td>
+					<td class="tg-o3c1">778</td>
+					<td class="tg-o3c1">5.88</td>
+					<td class="tg-o3c1">6,773</td>
+					<td class="tg-o3c1">6,329</td>
+					<td class="tg-o3c1">93.44</td>
+					<td class="tg-o3c1">444</td>
+					<td class="tg-o3c1">6.56</td>
+					<td class="tg-o3c1">6,462</td>
+					<td class="tg-o3c1">6,128</td>
+					<td class="tg-o3c1">94.83</td>
+					<td class="tg-o3c1">334</td>
+					<td class="tg-o3c1">5.17</td>
+				</tr>
+				<tr>
+					<td class="tg-f4yw">78</td>
+					<td class="tg-zr06">KOTA SURABAYA</td>
+					<td class="tg-o3c1">206,587</td>
+					<td class="tg-o3c1">186,482</td>
+					<td class="tg-o3c1">90.27</td>
+					<td class="tg-o3c1">20,105</td>
+					<td class="tg-o3c1">9.73</td>
+					<td class="tg-o3c1">106,484</td>
+					<td class="tg-o3c1">96,070</td>
+					<td class="tg-o3c1">90.22</td>
+					<td class="tg-o3c1">10,414</td>
+					<td class="tg-o3c1">9.78</td>
+					<td class="tg-o3c1">100,103</td>
+					<td class="tg-o3c1">90,412</td>
+					<td class="tg-o3c1">90.32</td>
+					<td class="tg-o3c1">9,691</td>
+					<td class="tg-o3c1">9.68</td>
+				</tr>
+				<tr>
+					<td class="tg-f4yw">79</td>
+					<td class="tg-zr06">KOTA BATU</td>
+					<td class="tg-o3c1">17,376</td>
+					<td class="tg-o3c1">16,252</td>
+					<td class="tg-o3c1">93.53</td>
+					<td class="tg-o3c1">1,124</td>
+					<td class="tg-o3c1">6.47</td>
+					<td class="tg-o3c1">9,002</td>
+					<td class="tg-o3c1">8,373</td>
+					<td class="tg-o3c1">93.01</td>
+					<td class="tg-o3c1">629</td>
+					<td class="tg-o3c1">6.99</td>
+					<td class="tg-o3c1">8,374</td>
+					<td class="tg-o3c1">7,879</td>
+					<td class="tg-o3c1">94.09</td>
+					<td class="tg-o3c1">495</td>
+					<td class="tg-o3c1">5.91</td>
+				</tr>
+				<tr>
+					<td class="tg-jr8z" colspan="2">JUMLAH TOTAL </td>
+					<td class="tg-xrrf">3,242,790</td>
+					<td class="tg-xrrf">2,950,24</td>
+					<td class="tg-xrrf">90.98</td>
+					<td class="tg-xrrf">292,549</td>
+					<td class="tg-xrrf">9.02</td>
+					<td class="tg-xrrf">1,673,574</td>
+					<td class="tg-xrrf">1,519,08</td>
+					<td class="tg-xrrf">90.77</td>
+					<td class="tg-xrrf">154,491</td>
+					<td class="tg-xrrf">9.23</td>
+					<td class="tg-xrrf">1,569,216</td>
+					<td class="tg-xrrf">1,431,15</td>
+					<td class="tg-xrrf">91.20</td>
+					<td class="tg-xrrf">138,058</td>
+					<td class="tg-xrrf">8.80</td>
+				</tr>
+				<tr>
+					<td class="tg-zr06" colspan="7">Sumber: Pendataan Keluarga; Tanggal dan Jam laporan diambil/download</td>
+					<td class="tg-kcps"> </td>
+					<td class="tg-kcps"> </td>
+					<td class="tg-kcps"> </td>
+					<td class="tg-kcps"> </td>
+					<td class="tg-kcps"> </td>
+					<td class="tg-kcps"> </td>
+					<td class="tg-kcps"> </td>
+					<td class="tg-kcps"> </td>
+					<td class="tg-kcps"> </td>
+					<td class="tg-kcps"> </td>
+				</tr>
+			</tbody>
+		</table>
+		</center>
+            </q-page-container>
+        </q-layout>
+    </div>
+
+    <script src="../../../../../file.kbjatim.id/script/vue/vue.global.prod.js"></script>
+    <script src="../../../../../file.kbjatim.id/script/quasar/quasar.umd.prod.js"></script>
+
+    <script>
+        var {
+            ref
+        } = Vue
+        var {
+            useQuasar
+        } = Quasar
+        const app = Vue.createApp({
+            setup() {
+                const $q = useQuasar()
+                const leftDrawerOpen = ref(false)
+                const rightDrawerOpen = ref(false)
+                const slide = ref(1)
+                return {
+                    slide,
+                    img(img) {
+                        $q.dialog({
+                            title: false,
+                            message: "<center><img style='max-height:75vh' src='" + img + "'></center>",
+                            html: true,
+                            fullHeight: true,
+                            fullWidth: true,
+                            transitionDuration: 500,
+                            ok: {
+                                push: true,
+                                color: 'negative'
+                            },
+
+                        })
+                    },
+
+                    leftDrawerOpen,
+                    toggleLeftDrawer() {
+                        leftDrawerOpen.value = !leftDrawerOpen.value
+                    },
+
+                    rightDrawerOpen,
+                    toggleRightDrawer() {
+                        rightDrawerOpen.value = !rightDrawerOpen.value
+                    }
+                }
+            }
+        })
+
+
+        app.use(Quasar)
+        app.mount('#q-app')
+    </script>
+</body>
+
+</html>

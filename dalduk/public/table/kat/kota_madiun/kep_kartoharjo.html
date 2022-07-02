@@ -1,0 +1,841 @@
+﻿<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BKKBN</title>
+    <!-- Removed by WebCopy --><!--<base href="https://localhost/kbjatim/dalduk/public/">--><!-- Removed by WebCopy -->
+    <link href="../../../../../file.kbjatim.id/script/quasar/quasar.prod.css" rel="stylesheet">
+    <style>
+        @font-face {
+            font-family: 'Material Icons';
+            font-style: normal;
+            font-weight: 400;
+            src: url('../../../../../file.kbjatim.id/media/font/mi.woff2') format('woff2'),
+                url('../../../../../file.kbjatim.id/media/font/mi.woff') format('woff');
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            src: url('../../../../../file.kbjatim.id/media/font/roboto.woff2') format('woff2'),
+                url('../../../../../file.kbjatim.id/media/font/roboto.woff') format('woff');
+        }
+
+        .material-icons {
+            font-family: 'Material Icons';
+            font-weight: normal;
+            font-style: normal;
+            font-size: 24px;
+            line-height: 1;
+            letter-spacing: normal;
+            text-transform: none;
+            display: inline-block;
+            white-space: nowrap;
+            word-wrap: normal;
+            direction: ltr;
+            -webkit-font-feature-settings: 'liga';
+            -webkit-font-smoothing: antialiased;
+        }
+
+        body {
+            font-family: 'Roboto';
+        }
+    </style>
+    <style type="text/css">
+        .tg {
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+
+        .tg td {
+            border-color: black;
+            border-style: solid;
+            border-width: 1px;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            overflow: hidden;
+            padding: 10px 5px;
+            word-break: normal;
+        }
+
+        .tg th {
+            border-color: black;
+            border-style: solid;
+            border-width: 1px;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            font-weight: normal;
+            overflow: hidden;
+            padding: 10px 5px;
+            word-break: normal;
+        }
+
+        .tg .tg-o3c1 {
+            background-color: #FFF;
+            text-align: right;
+            vertical-align: middle
+        }
+
+        .tg .tg-b16q {
+            background-color: #081C80;
+            color: #FFF;
+            text-align: center;
+            vertical-align: middle
+        }
+
+        .tg .tg-qhuh {
+            background-color: #4522F5;
+            color: #FFFCFC;
+            font-weight: bold;
+            text-align: center;
+            vertical-align: middle
+        }
+
+        .tg .tg-8rcp {
+            background-color: #FFF;
+            font-weight: bold;
+            text-align: left;
+            vertical-align: middle
+        }
+
+        .tg .tg-jr8z {
+            background-color: #4522F5;
+            color: #FFF;
+            font-weight: bold;
+            text-align: center;
+            vertical-align: middle
+        }
+
+        .tg .tg-9hzb,
+        .tg-2g1l {
+            background-color: #FFF;
+            font-weight: bold !important;
+            text-align: center;
+            vertical-align: top
+        }
+
+        .tg .tg-kcps {
+            background-color: #FFF;
+            text-align: left;
+            vertical-align: bottom
+        }
+
+        .tg .tg-f4yw {
+            background-color: #FFF;
+            text-align: center;
+            vertical-align: middle
+        }
+
+        .tg .tg-zr06 {
+            background-color: #FFF;
+            text-align: left;
+            vertical-align: middle
+        }
+
+        .tg .tg-xrrf {
+            background-color: #4522F5;
+            color: #FFF;
+            text-align: right;
+            vertical-align: middle
+        }
+    </style>
+    <style type="text/css">
+        .tg {
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+
+        .tg td {
+            border-color: black;
+            border-style: solid;
+            border-width: 1px;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            overflow: hidden;
+            padding: 10px 5px;
+            word-break: normal;
+        }
+
+        .tg th {
+            border-color: black;
+            border-style: solid;
+            border-width: 1px;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            font-weight: normal;
+            overflow: hidden;
+            padding: 10px 5px;
+            word-break: normal;
+        }
+
+        .tg .tg-o3c1 {
+            background-color: #FFF;
+            text-align: right;
+            vertical-align: middle
+        }
+
+        .tg .tg-qhuh {
+            background-color: #4522F5;
+            color: #FFFCFC;
+            font-weight: bold;
+            text-align: center;
+            vertical-align: middle
+        }
+
+        .tg .tg-8rcp {
+            background-color: #FFF;
+            font-weight: bold;
+            text-align: left;
+            vertical-align: middle
+        }
+
+        .tg .tg-b59m {
+            background-color: #081C80;
+            color: #FFFCFC;
+            text-align: center;
+            vertical-align: middle
+        }
+
+        .tg .tg-jr8z {
+            background-color: #4522F5;
+            color: #FFF;
+            font-weight: bold;
+            text-align: center;
+            vertical-align: middle
+        }
+
+        .tg .tg-9hzb {
+            background-color: #FFF;
+            font-weight: bold;
+            text-align: center;
+            vertical-align: top
+        }
+
+        .tg .tg-f4yw {
+            background-color: #FFF;
+            text-align: center;
+            vertical-align: middle
+        }
+
+        .tg .tg-zr06 {
+            background-color: #FFF;
+            text-align: left;
+            vertical-align: middle
+        }
+
+        .tg .tg-xrrf {
+            background-color: #4522F5;
+            color: #FFF;
+            text-align: right;
+            vertical-align: middle
+        }
+
+        .tg .tg-kcps {
+            background-color: #FFF;
+            text-align: left;
+            vertical-align: bottom
+        }
+    </style>
+</head>
+
+<body>
+    <div id="q-app">
+        <q-layout view="hHh lpR fFf">
+            <q-header elevated="" class="bg-primary text-white" height-hint="98">
+                <q-toolbar class="bg-primary glossy text-white">
+                    <q-toolbar-title>
+                        <q-img spinner-color="primary" class="q-mx-md" spinner-size="82px" style="width: 90px;" src="../../../../../file.kbjatim.id/media/image/rumahdata_bw.svg"></q-img>
+                        
+                        <q-btn href="../../../index.htm" icon="home" label="HOME">
+
+                        </q-btn>
+                        <q-btn-dropdown label="Jawa Timur" icon="my_location" stretch="" flat="">
+                            <q-list bordered="">
+                                <q-item clickable="" v-ripple="" href="../provinsi/jawa_timur.html">
+                                    <q-item-section avatar="">
+                                        <q-icon color="primary" name="analytics"></q-icon>
+                                    </q-item-section>
+                                    <q-item-section avatar="">Data Grafik</q-item-section>
+                                </q-item>
+
+                                <q-item clickable="" v-ripple="">
+                                    <q-item-section avatar="">
+                                        <q-icon color="primary" name="topic"></q-icon>
+                                    </q-item-section>
+                                    <q-item-section avatar="">
+                                        Indikator Keluarga Berencana
+                                    </q-item-section>
+                                    <q-item-section>
+                                        <q-icon color="primary" name="keyboard_arrow_right"></q-icon>
+                                    </q-item-section>
+                                    <q-menu anchor="top end" self="top start">
+                                        <q-list style="min-width: 100px">
+                                            <q-item clickable="" v-close-popup="" href="../jatim/kb_1.html">
+                                                <q-item-section>Jumlah Wanita Kawin (10-49 Tahun) Menurut Kelompok Umur Pendataan Keluarga Indonesia
+                                                </q-item-section>
+                                            </q-item>
+                                            <q-item clickable="" v-close-popup="" href="../jatim/kb_3.html">
+                                                <q-item-section>Jumlah PUS Menurut Umur Kawin Pertama
+                                                    Pendataan Keluarga Indonesia
+                                                </q-item-section>
+                                            </q-item>
+                                            <q-item clickable="" v-close-popup="" href="../jatim/kb_8.html">
+                                                <q-item-section>Jumlah PUS Status Hamil Menurut Empat Terlalu Dan Umur Anak Terkecil Pendataan Keluarga Indonesia
+                                                </q-item-section>
+                                            </q-item>
+                                            <q-item clickable="" v-close-popup="" href="../jatim/kb_14.html">
+                                                <q-item-section>Jumlah PUS Bukan Peserta KB Menurut Alasan Tidak Ber-KB Pendataan Keluarga Indonesia
+                                                </q-item-section>
+                                            </q-item>
+                                        </q-list>
+                                    </q-menu>
+                                </q-item>
+                                <q-item clickable="" v-ripple="">
+                                    <q-item-section avatar="">
+                                        <q-icon color="primary" name="topic"></q-icon>
+                                    </q-item-section>
+                                    <q-item-section avatar="">
+                                        Indikator Kependudukan
+                                    </q-item-section>
+                                    <q-item-section>
+                                        <q-icon color="primary" name="keyboard_arrow_right"></q-icon>
+                                    </q-item-section>
+                                    <q-menu anchor="top end" self="top start">
+                                        <q-list style="min-width: 100px">
+                                            <q-item clickable="" v-close-popup="" href="../jatim/kep_1.html">
+                                                <q-item-section>
+                                                    Jumlah Kepala Keluarga Laki-Laki Menurut Kelompok Umur
+                                                    Pendataan Keluarga Indonesia
+                                                </q-item-section>
+                                            </q-item>
+                                            <q-item clickable="" v-close-popup="" href="../jatim/kep_9.html">
+                                                <q-item-section>
+                                                    Jumlah Kepala Keluarga Menurut Jenis Pekerjaan
+                                                    Pendataan Keluarga Indonesia
+                                                </q-item-section>
+                                            </q-item>
+                                            <q-item clickable="" v-close-popup="" href="../jatim/kep_13.html">
+                                                <q-item-section>
+                                                    Jumlah Individu Dalam Keluarga Menurut Tingkat Pendidikan Terakhir
+                                                    Pendataan Keluarga Indonesia
+                                                </q-item-section>
+                                            </q-item>
+                                            <q-item clickable="" v-close-popup="" href="../jatim/kep_16.html">
+                                                <q-item-section>
+                                                    Jumlah Anak Umur 7 - 12 Tahun Menurut Status Pendidikan
+                                                    Pendataan Keluarga Indonesia
+                                                </q-item-section>
+                                            </q-item>
+                                            <q-item clickable="" v-close-popup="" href="../jatim/kep_20.html">
+                                                <q-item-section>
+                                                    Jumlah Individu Dalam Keluarga Menurut Kesertaan Dalam Jaminan Kesehatan
+                                                    Pendataan Keluarga Indonesia
+                                                </q-item-section>
+                                            </q-item>
+                                        </q-list>
+                                    </q-menu>
+                                </q-item>
+                                <q-item clickable="" v-ripple="">
+                                    <q-item-section avatar="">
+                                        <q-icon color="primary" name="topic"></q-icon>
+                                    </q-item-section>
+                                    <q-item-section avatar="">
+                                        Indikator Pembangunan Keluarga
+                                    </q-item-section>
+                                    <q-item-section>
+                                        <q-icon color="primary" name="keyboard_arrow_right"></q-icon>
+                                    </q-item-section>
+                                    <q-menu anchor="top end" self="top start">
+                                        <q-list style="min-width: 100px">
+                                            <q-item clickable="" v-close-popup="" href="../jatim/pk_4.html">
+                                                <q-item-section>
+                                                    Jumlah Keluarga Menurut Variabel Rumah Layak Huni (1) Pendataan Keluarga Indonesia
+                                                </q-item-section>
+                                            </q-item>
+                                            <q-item clickable="" v-close-popup="" href="../jatim/pk_6.html">
+                                                <q-item-section>
+                                                    Jumlah Keluarga Menurut Keikutsertaan Dalam Kelompok Ketahanan Keluarga Pendataan Keluarga Indonesia
+
+                                                </q-item-section>
+                                            </q-item>
+                                            <q-item clickable="" v-close-popup="" href="../jatim/pk_7.html">
+                                                <q-item-section>
+                                                    Jumlah Keluarga Menurut Keikutsertaan Kegiatan Usaha Ekonomi Pendataan Keluarga Indonesia
+                                                </q-item-section>
+                                            </q-item>
+                                            <q-item clickable="" v-close-popup="" href="../jatim/pk_8.html">
+                                                <q-item-section>
+                                                    Jumlah Keluarga Yang Ikut Serta Bina Keluarga Balita (BKB) Menurut Status PUS Dan Kesertaan Ber-KB Pendataan Keluarga Indonesia
+                                                </q-item-section>
+                                            </q-item>
+                                            <q-item clickable="" v-close-popup="" href="../jatim/pk_9.html">
+                                                <q-item-section>
+                                                    Jumlah Keluarga Yang Ikut Serta Bina Keluarga Remaja (BKR) Menurut Status PUS Dan Kesertaan Ber-KB Pendataan Keluarga Indonesia
+                                                </q-item-section>
+                                            </q-item>
+                                        </q-list>
+                                    </q-menu>
+                                </q-item>
+                                <q-item clickable="" v-ripple="">
+                                    <q-item-section avatar="">
+                                        <q-icon color="primary" name="topic"></q-icon>
+                                    </q-item-section>
+                                    <q-item-section avatar="">
+                                        Data Stunting
+                                    </q-item-section>
+                                    <q-item-section>
+                                        <q-icon color="primary" name="keyboard_arrow_right"></q-icon>
+                                    </q-item-section>
+                                    <q-menu anchor="top end" self="top start">
+                                        <q-list style="min-width: 100px">
+                                            <q-item clickable="" v-close-popup="" href="../jatim/stunting_2.html">
+                                                <q-item-section>
+                                                    Jumlah Keluarga Sasaran Menurut Penapisan Potensi Risiko Stunting Pendataan Keluarga Indonesia
+                                                </q-item-section>
+                                            </q-item>
+                                        </q-list>
+                                    </q-menu>
+                                </q-item>
+                            </q-list>
+                        </q-btn-dropdown>
+
+
+                        <q-btn-dropdown label="Kota Madiun" icon="my_location" stretch="">
+                            <q-list bordered="">
+                                <q-item clickable="" v-ripple="" href="../kota/madiun.html">
+                                    <q-item-section avatar="">
+                                        <q-icon color="primary" name="analytics"></q-icon>
+                                    </q-item-section>
+                                    <q-item-section>Data Grafik</q-item-section>
+
+                                </q-item>
+                                <q-item clickable="" v-ripple="">
+                                    <q-item-section avatar="">
+                                        <q-icon color="primary" name="topic"></q-icon>
+                                    </q-item-section>
+                                    <q-item-section avatar="">
+                                        Kota Madiun
+                                    </q-item-section>
+                                    <q-item-section>
+                                        <q-icon color="primary" name="keyboard_arrow_right"></q-icon>
+                                    </q-item-section>
+                                    <q-menu anchor="top end" self="top start">
+                                        <q-list style="min-width: 100px">
+                                            <q-item clickable="" v-close-popup="" href="kb.html">
+                                                <q-item-section>
+                                                    Indikator KB - Jumlah PUS Bukan Peserta KB Menurut Alasan Tidak Ber-KB Pendataan Keluarga Indonesia
+                                                </q-item-section>
+                                            </q-item>
+                                            <q-item clickable="" v-close-popup="" href="kep.html">
+                                                <q-item-section>
+                                                    Indikator Kependudukan - Jumlah Individu Dalam Keluarga Menurut Kesertaan Dalam Jaminan Kesehatan
+                                                    Pendataan Keluarga Indonesia
+                                                </q-item-section>
+                                            </q-item>
+                                            <q-item clickable="" v-close-popup="" href="pk.html">
+                                                <q-item-section>
+                                                    Indikator Pembangunan Keluarga - Jumlah Keluarga Menurut Variabel Rumah Layak Huni
+                                                </q-item-section>
+                                            </q-item>
+                                        </q-list>
+                                    </q-menu>
+                                </q-item>
+
+
+                                <q-item clickable="" v-ripple="">
+                                    <q-item-section avatar="">
+                                        <q-icon color="primary" name="topic"></q-icon>
+                                    </q-item-section>
+                                    <q-item-section avatar="">
+                                        Kec Kartoharjo
+                                    </q-item-section>
+                                    <q-item-section>
+                                        <q-icon color="primary" name="keyboard_arrow_right"></q-icon>
+                                    </q-item-section>
+                                    <q-menu anchor="top end" self="top start">
+                                        <q-list style="min-width: 100px">
+                                            <q-item clickable="" v-close-popup="" href="kb_kartoharjo.html">
+                                                <q-item-section>
+                                                    Indikator KB - Jumlah PUS Bukan Peserta KB Menurut Alasan Tidak Ber-KB Pendataan Keluarga Indonesia
+                                                </q-item-section>
+                                            </q-item>
+
+                                            <q-item clickable="" v-close-popup="" href="kep_kartoharjo.html">
+                                                <q-item-section>
+                                                    Indikator Kependudukan - Jumlah Individu Dalam Keluarga Menurut Kesertaan Dalam Jaminan Kesehatan Pendataan Keluarga Indonesia
+                                                </q-item-section>
+                                            </q-item>
+                                            <q-item clickable="" v-close-popup="" href="pk_kartoharjo.html">
+                                                <q-item-section>
+                                                    Indikator Pembangunan Keluarga - Jumlah Keluarga Yang Ikut Serta Bina Keluarga Remaja (BKR) Menurut Status PUS Dan Kesertaan Ber-KB
+                                                </q-item-section>
+                                            </q-item>
+
+                                        </q-list>
+                                    </q-menu>
+                                </q-item>
+                                <q-item clickable="" v-ripple="">
+                                    <q-item-section avatar="">
+                                        <q-icon color="primary q-pl-xl" name="topic"></q-icon>
+                                    </q-item-section>
+                                    <q-item-section avatar="">
+                                        Kelurahan RejoMulyo
+                                    </q-item-section>
+                                    <q-item-section>
+                                        <q-icon color="primary" name="keyboard_arrow_right"></q-icon>
+                                    </q-item-section>
+                                    <q-menu anchor="top end" self="top start">
+                                        <q-list style="min-width: 100px">
+                                            <q-item clickable="" v-close-popup="" href="kb_rejomulyo_kel.html">
+                                                <q-item-section>
+                                                    Indikator KB - Jumlah Pus Bukan Peserta Kb Menurut Alasan Tidak Ber-KB Pendataan Keluarga Indonesia
+                                                </q-item-section>
+                                            </q-item>
+                                            <q-item clickable="" v-close-popup="" href="kep_rejomulyo_kel.html">
+                                                <q-item-section>
+                                                    Indikator Kependudukan - Jumlah Individu Dalam Keluarga Menurut Kesertaan Dalam Jaminan Kesehatan Pendataan Keluarga Indonesia
+                                                </q-item-section>
+                                            </q-item>
+                                            <q-item clickable="" v-close-popup="" href="pk_rejomulyo_kel.html">
+                                                <q-item-section>
+                                                    Indikator Pembangunan Keluarga - Jumlah Keluarga Yang Ikut Serta Bina Keluarga Remaja (BKR) Menurut Status Pus Dan Kesertaan Ber-KB Pendataan Keluarga Indonesia
+                                                </q-item-section>
+                                            </q-item>
+                                        </q-list>
+                                    </q-menu>
+                                </q-item>
+
+                                <q-item clickable="" v-ripple="">
+                                    <q-item-section avatar="">
+                                        <q-icon color="primary" name="topic"></q-icon>
+                                    </q-item-section>
+                                    <q-item-section avatar="">
+                                        Kec Manguharjo
+                                    </q-item-section>
+                                    <q-item-section>
+                                        <q-icon color="primary" name="keyboard_arrow_right"></q-icon>
+                                    </q-item-section>
+                                    <q-menu anchor="top end" self="top start">
+                                        <q-list style="min-width: 100px">
+                                            <q-item clickable="" v-close-popup="" href="kb_manguharjo.html">
+                                                <q-item-section>
+                                                    Indikator KB - Jumlah PUS Bukan Peserta KB Menurut Alasan Tidak Ber-KB Pendataan Keluarga Indonesia
+                                                </q-item-section>
+                                            </q-item>
+                                            <q-item clickable="" v-close-popup="" href="kep_manguharjo.html">
+                                                <q-item-section>
+                                                    Indikator Kependudukan - Jumlah Anak Umur 7 - 12 Tahun Menurut Status Pendidikan Pendataan Keluarga Indonesia
+                                                </q-item-section>
+                                            </q-item>
+
+                                            <q-item clickable="" v-close-popup="" href="pk_manguharjo.html">
+                                                <q-item-section>
+                                                    Indikator Pembangunan Keluarga - Jumlah Keluarga Menurut Variabel Rumah Layak Huni
+                                                </q-item-section>
+                                            </q-item>
+                                        </q-list>
+                                    </q-menu>
+                                </q-item>
+                                <q-item clickable="" v-ripple="">
+                                    <q-item-section avatar="">
+                                        <q-icon color="primary" name="topic"></q-icon>
+                                    </q-item-section>
+                                    <q-item-section avatar="">
+                                        Kec Taman
+                                    </q-item-section>
+                                    <q-item-section>
+                                        <q-icon color="primary" name="keyboard_arrow_right"></q-icon>
+                                    </q-item-section>
+                                    <q-menu anchor="top end" self="top start">
+                                        <q-list style="min-width: 100px">
+                                            <q-item clickable="" v-close-popup="" href="kb_taman.html">
+                                                <q-item-section>
+                                                    Indikator KB - Jumlah PUS Bukan Peserta KB Menurut Alasan Tidak Ber-KB Pendataan Keluarga Indonesia
+                                                </q-item-section>
+                                            </q-item>
+                                            <q-item clickable="" v-close-popup="" href="kep_taman.html">
+                                                <q-item-section>
+                                                    Indikator Kependudukan - Jumlah Individu Dalam Keluarga Menurut Kesertaan Dalam Jaminan Kesehatan Pendataan Keluarga Indonesia
+                                                </q-item-section>
+                                            </q-item>
+                                            <q-item clickable="" v-close-popup="" href="pk_taman.html">
+                                                <q-item-section>
+                                                    Indikator Pembangunan Keluarga - Jumlah Keluarga Menurut Variabel Rumah Layak Huni
+                                                </q-item-section>
+                                            </q-item>
+                                        </q-list>
+                                    </q-menu>
+                                </q-item>
+                            </q-list>
+                        </q-btn-dropdown>
+                    </q-toolbar-title>
+                </q-toolbar>
+            </q-header>
+            <q-page-container>
+                <center> 
+
+		<table class="tg">
+			<thead>
+				<tr>
+					<th class="tg-2g1l" colspan="13">JUMLAH INDIVIDU DALAM KELUARGA MENURUT KESERTAAN DALAM JAMINAN KESEHATAN<br> PENDATAAN KELUARGA INDONESIA</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td class="tg-8rcp" colspan="13">PERIODE : 2021</td>
+				</tr>
+				<tr>
+					<td class="tg-8rcp" colspan="13">WILAYAH : Kecamatan</td>
+				</tr>
+				<tr>
+					<td class="tg-qhuh" rowspan="4">KODE</td>
+					<td class="tg-qhuh" rowspan="4">KELURAHAN</td>
+					<td class="tg-qhuh" rowspan="4">JUMLAH INDIVIDU DALAM KELUARGA</td>
+					<td class="tg-qhuh" colspan="6">MEMILIKI JAMINAN KESEHATAN</td>
+					<td class="tg-qhuh" colspan="2" rowspan="3">JUMLAH MEMILIKI JAMINAN KESEHATAN</td>
+					<td class="tg-qhuh" colspan="2" rowspan="3">TIDAK MEMILIKI JAMINAN KESEHATAN</td>
+				</tr>
+				<tr>
+					<td class="tg-qhuh" colspan="4">JKN</td>
+					<td class="tg-qhuh" colspan="2" rowspan="2">NON JKN</td>
+				</tr>
+				<tr>
+					<td class="tg-qhuh" colspan="2">BPJS - PBI/JAMKESMAS/ JAMKESDA</td>
+					<td class="tg-qhuh" colspan="2">BPJS - NON PBI</td>
+				</tr>
+				<tr>
+					<td class="tg-qhuh">JUMLAH</td>
+					<td class="tg-qhuh">%</td>
+					<td class="tg-qhuh">JUMLAH</td>
+					<td class="tg-qhuh">%</td>
+					<td class="tg-qhuh">JUMLAH</td>
+					<td class="tg-qhuh">%</td>
+					<td class="tg-qhuh">JUMLAH</td>
+					<td class="tg-qhuh">%</td>
+					<td class="tg-qhuh">JUMLAH</td>
+					<td class="tg-qhuh">%</td>
+				</tr>
+				<tr>
+					<td class="tg-f4yw">1001</td>
+					<td class="tg-zr06">ORO-ORO OMBO</td>
+					<td class="tg-o3c1">4,597</td>
+					<td class="tg-o3c1">2,642</td>
+					<td class="tg-o3c1">59.73</td>
+					<td class="tg-o3c1">1,639</td>
+					<td class="tg-o3c1">37.06</td>
+					<td class="tg-o3c1">142</td>
+					<td class="tg-o3c1">3.21</td>
+					<td class="tg-o3c1">4,423</td>
+					<td class="tg-o3c1">96.21</td>
+					<td class="tg-o3c1">174</td>
+					<td class="tg-o3c1">3.79</td>
+				</tr>
+				<tr>
+					<td class="tg-f4yw">1002</td>
+					<td class="tg-zr06">SUKOSARI</td>
+					<td class="tg-o3c1">2,410</td>
+					<td class="tg-o3c1">1,544</td>
+					<td class="tg-o3c1">67.10</td>
+					<td class="tg-o3c1">726</td>
+					<td class="tg-o3c1">31.55</td>
+					<td class="tg-o3c1">31</td>
+					<td class="tg-o3c1">1.35</td>
+					<td class="tg-o3c1">2,301</td>
+					<td class="tg-o3c1">95.48</td>
+					<td class="tg-o3c1">109</td>
+					<td class="tg-o3c1">4.52</td>
+				</tr>
+				<tr>
+					<td class="tg-f4yw">1003</td>
+					<td class="tg-zr06">KLEGEN</td>
+					<td class="tg-o3c1">6,425</td>
+					<td class="tg-o3c1">3,929</td>
+					<td class="tg-o3c1">62.87</td>
+					<td class="tg-o3c1">2,193</td>
+					<td class="tg-o3c1">35.09</td>
+					<td class="tg-o3c1">127</td>
+					<td class="tg-o3c1">2.03</td>
+					<td class="tg-o3c1">6,249</td>
+					<td class="tg-o3c1">97.26</td>
+					<td class="tg-o3c1">176</td>
+					<td class="tg-o3c1">2.74</td>
+				</tr>
+				<tr>
+					<td class="tg-f4yw">1004</td>
+					<td class="tg-zr06">REJOMULYO</td>
+					<td class="tg-o3c1">8,032</td>
+					<td class="tg-o3c1">4,820</td>
+					<td class="tg-o3c1">62.79</td>
+					<td class="tg-o3c1">2,536</td>
+					<td class="tg-o3c1">33.04</td>
+					<td class="tg-o3c1">320</td>
+					<td class="tg-o3c1">4.17</td>
+					<td class="tg-o3c1">7,676</td>
+					<td class="tg-o3c1">95.57</td>
+					<td class="tg-o3c1">356</td>
+					<td class="tg-o3c1">4.43</td>
+				</tr>
+				<tr>
+					<td class="tg-f4yw">1005</td>
+					<td class="tg-zr06">PILANGBANGO</td>
+					<td class="tg-o3c1">3,672</td>
+					<td class="tg-o3c1">2,472</td>
+					<td class="tg-o3c1">68.76</td>
+					<td class="tg-o3c1">1,021</td>
+					<td class="tg-o3c1">28.40</td>
+					<td class="tg-o3c1">102</td>
+					<td class="tg-o3c1">2.84</td>
+					<td class="tg-o3c1">3,595</td>
+					<td class="tg-o3c1">97.90</td>
+					<td class="tg-o3c1">77</td>
+					<td class="tg-o3c1">2.10</td>
+				</tr>
+				<tr>
+					<td class="tg-f4yw">1006</td>
+					<td class="tg-zr06">TAWANGREJO</td>
+					<td class="tg-o3c1">3,374</td>
+					<td class="tg-o3c1">2,315</td>
+					<td class="tg-o3c1">71.27</td>
+					<td class="tg-o3c1">855</td>
+					<td class="tg-o3c1">26.32</td>
+					<td class="tg-o3c1">78</td>
+					<td class="tg-o3c1">2.40</td>
+					<td class="tg-o3c1">3,248</td>
+					<td class="tg-o3c1">96.27</td>
+					<td class="tg-o3c1">126</td>
+					<td class="tg-o3c1">3.73</td>
+				</tr>
+				<tr>
+					<td class="tg-f4yw">1007</td>
+					<td class="tg-zr06">KANIGORO</td>
+					<td class="tg-o3c1">7,384</td>
+					<td class="tg-o3c1">4,130</td>
+					<td class="tg-o3c1">57.69</td>
+					<td class="tg-o3c1">2,917</td>
+					<td class="tg-o3c1">40.75</td>
+					<td class="tg-o3c1">112</td>
+					<td class="tg-o3c1">1.56</td>
+					<td class="tg-o3c1">7,159</td>
+					<td class="tg-o3c1">96.95</td>
+					<td class="tg-o3c1">225</td>
+					<td class="tg-o3c1">3.05</td>
+				</tr>
+				<tr>
+					<td class="tg-f4yw">1008</td>
+					<td class="tg-zr06">KARTOHARJO</td>
+					<td class="tg-o3c1">3,251</td>
+					<td class="tg-o3c1">2,040</td>
+					<td class="tg-o3c1">65.62</td>
+					<td class="tg-o3c1">916</td>
+					<td class="tg-o3c1">29.46</td>
+					<td class="tg-o3c1">153</td>
+					<td class="tg-o3c1">4.92</td>
+					<td class="tg-o3c1">3,109</td>
+					<td class="tg-o3c1">95.63</td>
+					<td class="tg-o3c1">142</td>
+					<td class="tg-o3c1">4.37</td>
+				</tr>
+				<tr>
+					<td class="tg-f4yw">1009</td>
+					<td class="tg-zr06">KELUN</td>
+					<td class="tg-o3c1">3,964</td>
+					<td class="tg-o3c1">2,754</td>
+					<td class="tg-o3c1">71.13</td>
+					<td class="tg-o3c1">1,061</td>
+					<td class="tg-o3c1">27.40</td>
+					<td class="tg-o3c1">57</td>
+					<td class="tg-o3c1">1.47</td>
+					<td class="tg-o3c1">3,872</td>
+					<td class="tg-o3c1">97.68</td>
+					<td class="tg-o3c1">92</td>
+					<td class="tg-o3c1">2.32</td>
+				</tr>
+				<tr>
+					<td class="tg-jr8z" colspan="2">JUMLAH TOTAL </td>
+					<td class="tg-xrrf">43,109</td>
+					<td class="tg-xrrf">26,646</td>
+					<td class="tg-xrrf">64.00</td>
+					<td class="tg-xrrf">13,864</td>
+					<td class="tg-xrrf">33.30</td>
+					<td class="tg-xrrf">1,122</td>
+					<td class="tg-xrrf">2.70</td>
+					<td class="tg-xrrf">41,632</td>
+					<td class="tg-xrrf">96.57</td>
+					<td class="tg-xrrf">1,477</td>
+					<td class="tg-xrrf">3.43</td>
+				</tr>
+				<tr>
+					<td class="tg-zr06" colspan="5">Sumber: Pendataan Keluarga; Tanggal dan Jam laporan diambil/download</td>
+					<td class="tg-kcps"> </td>
+					<td class="tg-kcps"> </td>
+					<td class="tg-kcps"> </td>
+					<td class="tg-kcps"> </td>
+					<td class="tg-kcps"> </td>
+					<td class="tg-kcps"> </td>
+					<td class="tg-kcps"> </td>
+					<td class="tg-kcps"> </td>
+				</tr>
+			</tbody>
+		</table>
+		</center>
+            </q-page-container>
+        </q-layout>
+    </div>
+
+    <script src="../../../../../file.kbjatim.id/script/vue/vue.global.prod.js"></script>
+    <script src="../../../../../file.kbjatim.id/script/quasar/quasar.umd.prod.js"></script>
+
+    <script>
+        var {
+            ref
+        } = Vue
+        var {
+            useQuasar
+        } = Quasar
+        const app = Vue.createApp({
+            setup() {
+                const $q = useQuasar()
+                const leftDrawerOpen = ref(false)
+                const rightDrawerOpen = ref(false)
+                const slide = ref(1)
+                return {
+                    slide,
+                    img(img) {
+                        $q.dialog({
+                            title: false,
+                            message: "<center><img style='max-height:75vh' src='" + img + "'></center>",
+                            html: true,
+                            fullHeight: true,
+                            fullWidth: true,
+                            transitionDuration: 500,
+                            ok: {
+                                push: true,
+                                color: 'negative'
+                            },
+
+                        })
+                    },
+
+                    leftDrawerOpen,
+                    toggleLeftDrawer() {
+                        leftDrawerOpen.value = !leftDrawerOpen.value
+                    },
+
+                    rightDrawerOpen,
+                    toggleRightDrawer() {
+                        rightDrawerOpen.value = !rightDrawerOpen.value
+                    }
+                }
+            }
+        })
+
+
+        app.use(Quasar)
+        app.mount('#q-app')
+    </script>
+</body>
+
+</html>
